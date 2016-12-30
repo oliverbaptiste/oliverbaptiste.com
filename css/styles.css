@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Quattrocento:400,700');
+
+/*
+  Solarized hex colors from:
+  http://www.zovirl.com/2011/07/22/solarized_cheat_sheet/
+*/
+
 body {
-  background-color: #000;
-  color: #ccc;
+  background-color: #002b36;
+  color: #839496;
   font-family: 'Quattrocento', serif;
   font-size: 100%;
+  font-weight: 400;
   line-height: 1.5em;
   text-align: center;
   padding: 0;
@@ -12,17 +19,24 @@ body {
   width: 100%;
 }
 
-a, strong {
+a:link {
+  color: #268bd2;
+  text-decoration: none;
   font-weight: 700;
 }
 
-a:link {
-  text-decoration: none;
+a:visited {
+  color: #6c71c4;
 }
 
 a:hover {
   cursor: pointer;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  border-bottom: 1px dashed;
+}
+
+a:active {
+  color: #dc322f;
 }
 
 header {
@@ -30,30 +44,42 @@ header {
 }
 
 .hed {
-  color: white;
+  color: #2aa198;
   line-height: 100%;
   font-size: 360%;
   margin: 0;
   padding: 0 0.5em 0;
+  text-shadow: 1px 1px 5px black;
 }
 
 .dek {
-  color: #ccc;
+  color: #839496;
   font-size: 180%;
   line-height: 125%;
   margin: 0;
   padding: 1em 2em 0;
 }
 
-section {
+.dek strong {
+  color: #93a1a1;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px black;
+}
+
+.main {
   background-color: #fff;
-  color: #000;
-  font-family: 'Open Sans', sans-serif;
+  color: #002b36;
   padding: 1em 1.5em 2em;
 }
 
+.currently {
+  font-size: 120%;
+}
+
 footer {
-  background-color: black;
-  color: #ccc;
-  padding: 2em 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 70%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2em 2em 4em;
 }
