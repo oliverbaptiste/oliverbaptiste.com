@@ -68,11 +68,8 @@ header {
 .main {
   background-color: #fff;
   color: #002b36;
-  padding: 1em 1.5em 2em;
-}
-
-.currently {
   font-size: 120%;
+  padding: 1em 2em 2em;
 }
 
 footer {
