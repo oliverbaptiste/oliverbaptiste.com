@@ -92,12 +92,17 @@ nav a:hover {
 article {
   background-color: #fff;
   color: #002b36;
-  font-size: 120%;
   padding: 1em 2em 2em;
 }
 
 article h1 {
-  line-height: 150%;
+  line-height: 120%;
+  font-weight: 700;
+  font-size: 180%;
+}
+
+article p {
+  font-size: 120%;
 }
 
 footer {
