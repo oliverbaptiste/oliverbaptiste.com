@@ -12,7 +12,7 @@ I **design** and **develop** web sites and apps.
     * animation
     * music & audio design
   * **Front-end development**
-    * markup
+    * semantic markup with progressive enhancement
       * a11y & i18n
     * styling
     * scripting
@@ -152,7 +152,8 @@ You can find me on
   * Homebrew
   * *npm*
   * *Bower*
-* hosting platforms
+* deployment and hosting
+  * Vagrant
   * DigitalOcean
   * Github Pages
   * Heroku
@@ -166,4 +167,4 @@ You can find me on
 
 ---
 
-&copy; 2017 Oliver G. A. Baptiste. 
+© 2017 Oliver G. A. Baptiste.
