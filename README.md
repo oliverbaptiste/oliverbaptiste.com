@@ -5,6 +5,9 @@
 
 I **design** and **develop** web sites and apps.
   * **UX design**
+    * content
+    * semantics
+    * structure
     * layout
     * color & typography
     * vector and raster graphics
@@ -22,7 +25,12 @@ I **design** and **develop** web sites and apps.
 
 I currently work full-time for
 [**HarperCollins Publishers**](https://www.harpercollins.com/)
-as a marketing designer and technologist. Earlier career stops include
+as a marketing designer and technologist.
+* SigmaForceBooks.com
+* CharlesToddMap.com
+* HC Style Guide
+
+Earlier career stops include
   [**FOUR32C**](http://four32c.com/),
   [**CUNY City Tech**](http://www.citytech.cuny.edu/),
   [**Condé Nast**](http://www.condenast.com/),
@@ -47,6 +55,18 @@ You can find me on
 ---
 
 ## My Toolbox
+
+I have been coding HTML on Macs since the OS 8 days. Back then, my web toolkit consisted of BBEdit and Dreamweaver as text editors, Fetch for FTP, Photoshop, ImageReady, Fireworks, and Flash for web graphics, shared LAMP web hosting, the Finder for file management, with file renaming as my sole version control. I got my first exposure to UNIX and the command line when I upgraded to OS X, but largely used the same desktop toolkit.
+
+At Condé Nast I started developing on Windows XP using HomeSite as my editor for HTML, CSS and XML — I used to wish they made it for Macs! I was first introduced to a real version control system with ClearCase, first used CMSs, and was exposed to JSP server-side programming, build systems with Maven, and the magical world of the vi text editor!
+
+BBEdit, Photoshop and Fetch remained my core tools as I did Wordpress theme development for FOUR32C working with PHP, MySQL, and JavaScript. I stepped up from OS X's Personal Web Sharing to using MAMP to locally host WP installations. Since Internet Explorer has the biggest user base, I tested my code in Windows VMs with Virtual PC and Parallels.
+
+While freelancing at Infor, I first used Git, first using SourceTree and Bitbucket, then later Github and Github Desktop. I also switched to VirtualBox to run Windows VMs for testing. Later, I discovered Vagrant for development servers and deployment via FTP. I began experimenting with Sublime Text but still favored BBEdit, until I switched to the Atom edtior.
+
+Today, my main tools are Atom, Terminal, and Adobe CC (Photoshop, Illustrator, and Animate). No more shared web space now that I use Digital Ocean to spin up servers. I used Homebrew to install Node and Git, and use Git only via the command line now, with my repos hosted at Github. I used a demo of Sketch at work recently, and I'm very excited about it... it's like the rebirth of Fireworks. I am learning how to be a better developer and designer, and looking forward to further tweaking my toolkit into an efficient flow for my creativity and craft.
+
+Honorable Mentions: Logic Pro X, Ableton Live, Audacity for audio creation and editing.
 
 ### Text Editors and IDEs
 * Atom
@@ -82,6 +102,7 @@ You can find me on
 
 ### Technology Stack
 * markup languages
+  * Markdown
   * HTML
     * HTML5
       * Semantics
@@ -92,9 +113,10 @@ You can find me on
       * Performance & integration
       * Connectivity
     * HTML4
-    * XHTML
   * XML
     * SVG
+    * XHTML
+    * EPUB
 * stylesheet languages
   * CSS3
     * Backgrounds and Borders
