@@ -9,32 +9,47 @@
 body {
   color: #fff;
   background-color: #002B36;
-  font-family: sans-serif;
-}
-header {
   font-family: "omnes-pro", sans-serif;
+  font-weight: 400;
+  padding: 1em;
+}
+
+h1 {
   font-weight: 700;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-header h1 {
-  font-size: 450%;
+#site-header h1 {
   color: #2AA198;
+  font-size: 450%;
 }
 
-header .tagline {
-  font-size: 225%;
+#site-header .tagline {
   color: #B8E986;
+  font-size: 225%;
+  font-weight: 700;
 }
+
+#hello-world h1 {
+  color: #D33682;
+  font-size: 300%;
+}
+
+.social-links ul {
+  list-style: none;
+}
+
+
+
 
     </style>
   </head>
   <body>
-    <header>
+    <header id="site-header">
       <h1>Oliver Baptiste</h1>
-      <p class="tagline">An analog digital audio visual individual.&trade;</p>
+      <p class="tagline">An analog digital audio visual individual.<small>&trade;</small></p>
     </header>
-    <section>
+    <section id="hello-world">
       <h1>Hello, World!</h1>
       <p>
         <a href="#web-development">I build web pages and apps</a>
@@ -56,7 +71,7 @@ header .tagline {
       </p>
     </section>
     <footer>
-      <aside>
+      <aside class="social-links">
         <ul>
           <li><a href="#">Behance</a></li>
           <li><a href="#">Codepen</a></li>
