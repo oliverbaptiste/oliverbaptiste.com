@@ -1,136 +1,149 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Oliver Baptiste</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="_css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/cyf8srx.css">
     <style>
-      header {
-        padding: 3em 0 1em;
-      }
-      nav {
-        /* font-size: 120%; */
-        /* display: none; */
-      }
-      .hed {
-        animation: fadein 2s;
-      }
-      .dek {
-        color: #839496;
-        animation: quickfade 2s;
-        /* text-shadow: 1px 1px 5px black; */
-      }
-      .dek strong {
-        color: #b58900;
-      }
-      nav {
-        animation: quickfade 4s;
-      }
-      nav ul {
-        padding: 0;
-      }
-      nav a:hover {
-        color: #d33682;
-        text-decoration: underline;
-      }
-      .subnav {
-        /* max-width: 320px; */
-        margin: 0 auto 1em;
-        padding-top: 0;
-        /* text-align: right; */
-        letter-spacing: 0.1em;
-      }
-      .subnav a:link {
-        font-weight: 400;
-        font-size: 80%;
-      }
-      .subnav a:hover {
-        color: #fdf6e3;
-        text-decoration: none;
-        border-bottom: 1px dashed;
-      }
-      #social {
-        padding: 0;
-        list-style-type: none;
-      }
-      #social li {
-        display: inline-block;
-        padding: 0.25em 0.5em;
-      }
-      footer {
-        animation: quickfade 4s;
-        padding: 0.5em 2em 3em;
-      }
-      @keyframes fadein {
-        from { opacity: 0; }
-        to   { opacity: 1; }
-      }
-      @keyframes quickfade {
-        0%   { opacity: 0; }
-        90%  { opacity: 0; }
-        100% { opacity: 1; }
-      }
-      
+body {
+  color: #fff;
+  background-color: #002B36;
+  font-family: "omnes-pro", sans-serif;
+  font-style: normal;
+  font-size: 80%;
+  font-weight: 400;
+  line-height: 1.2;
+  padding: 1em;
+}
+
+body > * {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+a { 
+  color: #94D2FF;
+}
+
+header h1 {
+  color: #2AA198;
+  font-size: 450%;
+  line-height: 1;
+  margin-bottom: 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+header .tagline {
+  color: #B8E986;
+  font-size: 225%;
+  font-weight: 700;
+}
+
+header .tagline small {
+  font-weight: 400;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+section h1 {
+  font-size: 225%;
+}
+
+section p {
+  font-size: 150%;
+}
+
+#hello-world h1 {
+  color: #D33682;
+  font-size: 300%;
+}
+
+#hello-world p .placeholder-link {
+  color: #94D2FF;
+  font-size: 150%;
+  font-weight: 700;
+}
+
+#lets-talk h1 {
+  margin-bottom: 0;
+}
+
+#lets-talk p {
+  margin-top: 0;
+}
+
+footer {
+  font-family: "franklin-gothic-urw-comp";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+footer .social-links ul {
+  font-size: 200%;
+  list-style: none;
+  padding: 0;
+}
+
+footer .social-links a {
+  color: #B8E986;
+  text-decoration: none;
+}
+
+footer .copyright {
+  color: #CCC;
+}
     </style>
   </head>
-  <body class="homepage">
+  <body>
     <header>
-      <h1 class="hed">Oliver Baptiste</h1>
-      <p class="dek">
-        <strong>Interaction designer</strong>,
-        <strong>web developer</strong>,
-        and <strong>musician</strong>
-        working in <strong>NYC</strong>.
-      </p>
+      <h1>Oliver Baptiste</h1>
+      <p class="tagline">An analog digital audio visual individual.<small>&trade;</small></p>
     </header>
-    <nav>
-        <ul id="about">
-          <li>
-              HarperCollins digital marketing
-              <ul class="subnav">
-                  <li><a href="http://charlestoddmap.com/">Charles Todd interactive Google Map</a></li>
-                  <li><a href="http://welcometotheblinds.com/"><cite>The Blinds</cite> Name Generator</a></li>
-                  <li><a href="http://harpercollins200audiotour.com/"><em>HarperCollins 200</em> Author Audio Tour</a></li>
-                  <li><a href="http://narniaaudiotour.com/"><cite>The Voyage of the Dawn Treader</cite> Audio Tour</a></li>
-                  <li><a href="http://hcstyleguide.com/"><cite>HarperCollins</cite> digital marketing style guide</a></li>
-              </ul>
-              <abbr title="User Interface">UI</abbr> Design & HTML5 Development
-                <ul class="subnav">
-                    <li><a href="http://soundsurgeon.com/"><cite>Soundsurgeon</cite> synthesizer</a></li>
-                    <li><a href="https://github.com/oliverbaptiste/arcana"><cite>Arcana</cite> playing cards</a></li>
-                </ul>
-            </ul>
-          </li>
-          <!--
-          <li>
-            <a href="/sound" style="color: #268bd2;">Music & Sound Design</a>
-            <ul class="subnav">
-              <li><a href="/bass">“I play bass.”</a></li>
-              <li><a href="/audio">Audio production</a></li>
-              <li><a href="/discography">Discography</a></li>
-            </ul>
-          </li>
-          -->
-        </ul>
-      </nav>
-    <footer>
-      <aside>
-        <ul id="social">
-          <li><a href="https://www.behance.net/oliverbaptiste">Behance</a>
-          <li><a href="http://codepen.io/ogab">CodePen</a>
-          <li><a href="https://github.com/oliverbaptiste">GitHub</a>
-          <li><a href="https://www.linkedin.com/in/oliverbaptiste">LinkedIn</a>
-          <li><a href="https://repl.it/@oliverbaptiste">Repl.it</a>
-          <li><a href="https://soundcloud.com/oliverbaptiste">SoundCloud</a>
-          <li><a href="https://twitter.com/oliverbaptiste">Twitter</a>
-        </ul>
-      </aside>
+    <section id="hello-world">
+      <h1>Hello, World!</h1>
       <p>
-        &copy; 2017–2018 Oliver G. A. Baptiste.
-        All rights reserved.
-        Made in Brooklyn, USA.
+        <span class="placeholder-link">I build web pages and apps</span><br>
+        using HTML5, CSS, and JavaScript.
       </p>
+      <p>
+        <span class="placeholder-link">I design for mobile, tablet, and desktop</span><br>
+        using Sketch and Photoshop.
+      </p>
+      <p>
+        <span class="placeholder-link">I am a musician</span><br>
+        skilled in bass guitar and audio production.
+      </p>
+    </section>
+    <section id="lets-talk">
+      <h1>Let's Talk!</h1>
+      <p>
+        Contact me via any of the social media platforms listed below:
+      </p>
+    </section>
+    <footer>
+      <section class="social-links">
+        <ul>
+          <li><a href="#">Behance</a></li>
+          <li><a href="#">Codepen</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">SoundCloud</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </section>
+      <p class="copyright">
+        &copy; 2017–2018 Oliver G. A. Baptiste.<br>
+        All rights reserved. Made in Brooklyn, USA.</p>
     </footer>
   </body>
 </html>
