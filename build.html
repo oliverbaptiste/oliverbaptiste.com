@@ -10,24 +10,54 @@ body {
   color: #fff;
   background-color: #002B36;
   font-family: "omnes-pro", sans-serif;
+  font-style: normal;
+  font-size: 80%;
   font-weight: 400;
+  line-height: 1.2;
   padding: 1em;
 }
 
-h1 {
+body > * {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2 {
   font-weight: 700;
+}
+
+a { 
+  color: #94D2FF;
+}
+
+header h1 {
+  color: #2AA198;
+  font-size: 450%;
+  line-height: 1;
+  margin-bottom: 0;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-#site-header h1 {
-  color: #2AA198;
-  font-size: 450%;
-}
-
-#site-header .tagline {
+header .tagline {
   color: #B8E986;
   font-size: 225%;
   font-weight: 700;
+}
+
+header .tagline small {
+  font-weight: 400;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+section h1 {
+  font-size: 225%;
+}
+
+section p {
+  font-size: 150%;
 }
 
 #hello-world h1 {
@@ -35,36 +65,60 @@ h1 {
   font-size: 300%;
 }
 
-.social-links ul {
-  list-style: none;
+#hello-world p a {
+  font-size: 150%;
+  font-weight: 700;
 }
 
+#lets-talk h1 {
+  margin-bottom: 0;
+}
 
+#lets-talk p {
+  margin-top: 0;
+}
 
+footer {
+  font-family: "franklin-gothic-urw-comp";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-align: right;
+  text-transform: uppercase;
+}
 
+.social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links a {
+  color: #B8E986;
+  text-decoration: none;
+}
     </style>
   </head>
   <body>
-    <header id="site-header">
+    <header>
       <h1>Oliver Baptiste</h1>
       <p class="tagline">An analog digital audio visual individual.<small>&trade;</small></p>
     </header>
     <section id="hello-world">
       <h1>Hello, World!</h1>
       <p>
-        <a href="#web-development">I build web pages and apps</a>
+        <a href="#web-development">I build web pages and apps</a><br>
         using HTML5, CSS, and JavaScript.
       </p>
       <p>
-        <a href="#ui-design">I design for mobile, tablet, and desktop</a>
+        <a href="#ui-design">I design for mobile, tablet, and desktop</a><br>
         using Sketch and Photoshop.
       </p>
       <p>
-        <a href="#music-audio">I am a musician</a>
+        <a href="#music-audio">I am a musician</a><br>
         skilled in bass guitar and audio production.
       </p>
     </section>
-    <section>
+    <section id="lets-talk">
       <h1>Let's Talk!</h1>
       <p>Send an email to:
         <a href="mailto:holler@oliverbaptiste.com">holler@oliverbaptiste.com</a>
@@ -77,7 +131,6 @@ h1 {
           <li><a href="#">Codepen</a></li>
           <li><a href="#">Github</a></li>
           <li><a href="#">LinkedIn</a></li>
-          <li><a href="#">repl.it</a></li>
           <li><a href="#">SoundCloud</a></li>
           <li><a href="#">Twitter</a></li>
         </ul>
