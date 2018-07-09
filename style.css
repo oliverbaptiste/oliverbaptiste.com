@@ -1,0 +1,96 @@
+body {
+  color: #fff;
+  background-color: #002B36;
+  font-family: "omnes-pro", sans-serif;
+  font-style: normal;
+  font-size: 80%;
+  font-weight: 400;
+  line-height: 1.2;
+  padding: 1em;
+}
+  
+body > * {
+  max-width: 960px;
+  margin: 0 auto;
+}
+  
+h1, h2 {
+  font-weight: 700;
+}
+  
+a { 
+  color: #94D2FF;
+}
+  
+header h1 {
+  color: #2AA198;
+  font-size: 450%;
+  line-height: 1;
+  margin-bottom: 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+  
+header .tagline {
+  color: #B8E986;
+  font-size: 225%;
+  font-weight: 700;
+}
+  
+header .tagline small {
+  font-weight: 400;
+}
+  
+section {
+  margin-bottom: 3em;
+}
+
+section h1 {
+  font-size: 225%;
+}
+
+section p {
+  font-size: 150%;
+}
+
+#hello-world h1 {
+  color: #D33682;
+  font-size: 300%;
+}
+
+#hello-world p .placeholder-link {
+  color: #94D2FF;
+  font-size: 150%;
+  font-weight: 700;
+}
+
+#lets-talk h1 {
+  margin-bottom: 0;
+}
+
+#lets-talk p {
+  margin-top: 0;
+}
+
+footer {
+  font-family: "franklin-gothic-urw-comp";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+footer .social-links ul {
+  font-size: 200%;
+  list-style: none;
+  padding: 0;
+}
+
+footer .social-links a {
+  color: #B8E986;
+  text-decoration: none;
+}
+
+footer .copyright {
+  color: #CCC;
+}
