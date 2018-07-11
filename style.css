@@ -6,22 +6,23 @@ body {
   font-size: 80%;
   font-weight: 400;
   line-height: 1.2;
-  padding: 1em;
+  margin: 0;
+  padding: 8%;
 }
-  
+
 body > * {
   max-width: 960px;
   margin: 0 auto;
 }
-  
+
 h1, h2 {
   font-weight: 700;
 }
-  
-a { 
+
+a {
   color: #94D2FF;
 }
-  
+
 header h1 {
   color: #2AA198;
   font-size: 450%;
@@ -29,17 +30,17 @@ header h1 {
   margin-bottom: 0;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
-  
+
 header .tagline {
   color: #B8E986;
   font-size: 225%;
   font-weight: 700;
 }
-  
+
 header .tagline small {
   font-weight: 400;
 }
-  
+
 section {
   margin-bottom: 3em;
 }
