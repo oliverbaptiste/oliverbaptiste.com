@@ -45,12 +45,48 @@ section {
   margin-bottom: 3em;
 }
 
+section figure {
+  margin: 0.5em auto 1.5em;
+  display: inline-flex;
+  flex-direction: column;
+}
+
 section h1 {
   font-size: 225%;
 }
 
-section p {
+section p, ul {
   font-size: 150%;
+}
+
+.gallery {
+  text-align: center;
+}
+
+section figure img {
+  max-height: 360px;
+  max-width: 280px;
+  border: 1em solid white;
+  vertical-align: middle;
+  margin: 1em;
+  text-align: center;
+}
+
+section figure figcaption {
+  text-align: center;
+  width: inherit;
+}
+
+section ul {
+  line-height: 1.333;
+}
+
+section li {
+  margin-bottom: 0.5em;
+}
+
+#hello-world a {
+  font-weight: 700;
 }
 
 #hello-world h1 {
@@ -58,7 +94,7 @@ section p {
   font-size: 300%;
 }
 
-#hello-world p .placeholder-link {
+#hello-world .placeholder-link {
   color: #94D2FF;
   font-size: 150%;
   font-weight: 700;
@@ -104,6 +140,8 @@ footer .copyright {
 
   body {
     padding: 0;
+    background-color: white;
+    font-size: 10pt;
   }
 
 }
