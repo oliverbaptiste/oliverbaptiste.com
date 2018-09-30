@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Oliver Baptiste</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/styles.css">
+    <style>
+      header {
+        padding: 3em 0 1em;
+      }
+      nav {
+        /* font-size: 120%; */
+        /* display: none; */
+      }
+      .hed {
+        animation: fadein 2s;
+      }
+      .dek {
+        color: #839496;
+        animation: quickfade 2s;
+        /* text-shadow: 1px 1px 5px black; */
+      }
+      .dek strong {
+        color: #b58900;
+      }
+      nav {
+        animation: quickfade 4s;
+      }
+      nav ul {
+        padding: 0;
+      }
+      nav a:hover {
+        color: #d33682;
+        text-decoration: underline;
+      }
+      .subnav {
+        /* max-width: 320px; */
+        margin: 0 auto 1em;
+        padding-top: 0;
+        /* text-align: right; */
+        letter-spacing: 0.1em;
+      }
+      .subnav a:link {
+        font-weight: 400;
+        font-size: 80%;
+      }
+      .subnav a:hover {
+        color: #fdf6e3;
+        text-decoration: none;
+        border-bottom: 1px dashed;
+      }
+      #social {
+        padding: 0;
+        list-style-type: none;
+      }
+      #social li {
+        display: inline-block;
+        padding: 0.25em 0.5em;
+      }
+      footer {
+        animation: quickfade 4s;
+        padding: 0.5em 2em 3em;
+      }
+      @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+      @keyframes quickfade {
+        0%   { opacity: 0; }
+        90%  { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      
+    </style>
+  </head>
+  <body class="homepage">
+    <header>
+      <h1 class="hed">Oliver Baptiste</h1>
+      <p class="dek">
+        <strong>Interaction designer</strong>,
+        <strong>web developer</strong>,
+        and <strong>musician</strong>
+        working in <strong>NYC</strong>.
+      </p>
+    </header>
+    <nav>
+        <ul id="about">
+          <li>
+              HarperCollins digital marketing
+              <ul class="subnav">
+                  <li><a href="http://charlestoddmap.com/">Charles Todd interactive Google Map</a></li>
+                  <li><a href="http://welcometotheblinds.com/"><cite>The Blinds</cite> Name Generator</a></li>
+                  <li><a href="http://harpercollins200audiotour.com/"><em>HarperCollins 200</em> Author Audio Tour</a></li>
+                  <li><a href="http://narniaaudiotour.com/"><cite>The Voyage of the Dawn Treader</cite> Audio Tour</a></li>
+                  <li><a href="http://hcstyleguide.com/"><cite>HarperCollins</cite> digital marketing style guide</a></li>
+              </ul>
+              <abbr title="User Interface">UI</abbr> Design & HTML5 Development
+                <ul class="subnav">
+                    <li><a href="http://soundsurgeon.com/"><cite>Soundsurgeon</cite> synthesizer</a></li>
+                    <li><a href="https://github.com/oliverbaptiste/arcana"><cite>Arcana</cite> playing cards</a></li>
+                </ul>
+            </ul>
+          </li>
+          <!--
+          <li>
+            <a href="/sound" style="color: #268bd2;">Music & Sound Design</a>
+            <ul class="subnav">
+              <li><a href="/bass">“I play bass.”</a></li>
+              <li><a href="/audio">Audio production</a></li>
+              <li><a href="/discography">Discography</a></li>
+            </ul>
+          </li>
+          -->
+        </ul>
+      </nav>
+    <footer>
+      <aside>
+        <ul id="social">
+          <li><a href="https://www.behance.net/oliverbaptiste">Behance</a>
+          <li><a href="http://codepen.io/ogab">CodePen</a>
+          <li><a href="https://github.com/oliverbaptiste">GitHub</a>
+          <li><a href="https://www.linkedin.com/in/oliverbaptiste">LinkedIn</a>
+          <li><a href="https://repl.it/@oliverbaptiste">Repl.it</a>
+          <li><a href="https://soundcloud.com/oliverbaptiste">SoundCloud</a>
+          <li><a href="https://twitter.com/oliverbaptiste">Twitter</a>
+        </ul>
+      </aside>
+      <p>
+        &copy; 2017–2018 Oliver G. A. Baptiste.
+        All rights reserved.
+        Made in Brooklyn, USA.
+      </p>
+    </footer>
+  </body>
+</html>
