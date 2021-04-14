@@ -1,3 +1,0 @@
-# Goodbye!
-
-Thanks for visiting!

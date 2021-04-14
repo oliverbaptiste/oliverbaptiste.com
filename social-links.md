@@ -1,5 +1,0 @@
-* [Behance](https://www.behance.net/oliverbaptiste)
-* [Codepen](http://codepen.io/ogab)
-* [Github](https://github.com/oliverbaptiste)
-* [LinkedIn](https://www.linkedin.com/in/oliverbaptiste)
-* [SoundCloud](https://soundcloud.com/oliverbaptiste)
