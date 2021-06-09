@@ -1,11 +1,7 @@
 body {
+  background: #002b36;
   color: #fff;
-  background-color: #002B36;
-  font-family: "omnes-pro", sans-serif;
-  font-style: normal;
-  font-size: 80%;
-  font-weight: 400;
-  line-height: 1.2;
+  font: normal 400 100%/1.2 "omnes-pro", sans-serif;
   margin: 0;
   padding: 1em 8%;
 }
@@ -19,52 +15,45 @@ a {
   color: #94D2FF;
 }
 
-header h1 {
+h1 {
   color: #2AA198;
-  font-size: 450%;
+  font-size: 3.6rem;
   line-height: 1;
   margin-bottom: 0;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-header .tagline {
+p {
+  font-size: 1.2rem;
+}
+
+.tagline {
   color: #B8E986;
-  font-size: 225%;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
-header .tagline small {
+.tagline small {
   font-weight: 400;
 }
 
-section {
-  margin-bottom: 3em;
-}
-
-section h1 {
-  font-size: 225%;
-}
-
-section p {
-  font-size: 150%;
-}
-
-#hello-world h1 {
+.hello h2 {
   color: #D33682;
-  font-size: 300%;
+  font-size: 2.4rem;
 }
 
-#hello-world p .placeholder-link {
+.hello strong {
   color: #94D2FF;
-  font-size: 150%;
-  font-weight: 700;
+  display: block;
+  font-size: 1.8rem;
 }
 
-#lets-talk h1 {
+.goodbye h2 {
+  font-size: 1.8rem;
   margin-bottom: 0;
 }
 
-#lets-talk p {
+.goodbye p {
   margin-top: 0;
 }
 
@@ -77,8 +66,8 @@ footer {
   text-transform: uppercase;
 }
 
-footer .social-links ul {
-  font-size: 200%;
+footer .social-links {
+  font-size: 1.6rem;
   list-style: none;
   padding: 0;
 }
@@ -88,18 +77,6 @@ footer .social-links a {
   text-decoration: none;
 }
 
-footer .copyright {
-  color: #CCC;
-}
-
-@media print {
-
-  * {
-    color: black !important;
-  }
-
-  body {
-    padding: 0;
-  }
-
+footer p {
+  font-size: .8rem;
 }
