@@ -1,15 +1,14 @@
-#+TITLE: Oliver Baptiste
 #+DESCRIPTION: Personal home page of Oliver Baptiste, a web designer/developer based in the NYC metro area.
 #+AUTHOR: Oliver G. A. Baptiste
 #+DATE: 2021-11-12
 
-* Oliver Baptiste
+#+TITLE: Oliver Baptiste
 
 An analog digital audio visual individual.™
 
 --------------------------------------------------
 
-** Hello, World!
+* Hello, World!
 
 *I am a designer & developer*
 of Web sites & apps.
@@ -47,9 +46,9 @@ focusing on these topics:
 
 --------------------------------------------------
 
-** Thanks for visiting!
+* Thanks for visiting!
 
-*** Netizenships
+** Netizenships
 
 - [[https://www.behance.net/oliverbaptiste][Behance]]
 - [[https://codepen.io/ogab][Codepen]]
@@ -57,7 +56,7 @@ focusing on these topics:
 - [[https://www.linkedin.com/in/oliverbaptiste/][LinkedIn]]
 - [[https://soundcloud.com/oliverbaptiste][SoundCloud]]
 
-*** Colophon
+** Colophon
 
 Theme inspired by the [[http://ethanschoonover.com/solarized][Solarized]] color palette.
 
