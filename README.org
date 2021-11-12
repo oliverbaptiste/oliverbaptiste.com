@@ -26,7 +26,7 @@ I have perfomed, composed,
 *** TODO Resume & Portfolio
 
 I would like to create an interactive web app
-to showcase my development and design work.
+to showcase my design & development work.
 
 *** TODO Blog
 
