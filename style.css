@@ -19,18 +19,20 @@ p {
     font-size: 1.2rem;
 }
 
-#banner h1 {
+#banner dt {
     color: #2aa198;
     font-size: 3.6rem;
+    font-weight: 700;
     line-height: 1;
-    margin-bottom: 0;
+    margin-bottom: 0.25em;
     text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-#banner .tagline {
+#banner dd {
     color: #b8e986;
     font-size: 1.8rem;
     font-weight: 700;
+    margin-left: 0;
 }
 
 #banner .tagline small {
