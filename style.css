@@ -37,6 +37,10 @@ p {
     font-weight: 400;
 }
 
+#content {
+    margin-bottom: 3.6em;
+}
+
 #hello-world a:link {
     font-weight: 700;
 }
@@ -58,7 +62,6 @@ p {
 
 hr {
     border: 1px solid #2aa198;
-    margin: 3.6em 0;
 }
 
 #site-info {
@@ -74,12 +77,12 @@ hr {
 }
 
 #social-links ul {
-    font-size: 1.6rem;
     list-style: none;
     margin: 0;
 }
 
 #social-links li {
+    font-size: 1.6rem;
     line-height: 1.3;
 }
 
