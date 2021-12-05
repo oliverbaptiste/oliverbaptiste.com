@@ -73,13 +73,13 @@ hr {
     text-transform: uppercase;
 }
 
-#site-info ul {
+#social-links ul {
     font-size: 1.6rem;
     list-style: none;
     margin: 0;
 }
 
-footer li {
+#social-links li {
     line-height: 1.3;
 }
 
