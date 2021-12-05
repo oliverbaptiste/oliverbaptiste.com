@@ -35,16 +35,16 @@ p {
     margin-left: 0;
 }
 
-#banner .tagline small {
+#banner dd small {
     font-weight: 400;
-}
-
-#content {
-    margin-bottom: 3.6em;
 }
 
 #hello-world a:link {
     font-weight: 700;
+}
+
+#content {
+    margin-bottom: 3.6rem;
 }
 
 #hello-world h1 {
@@ -62,7 +62,7 @@ p {
     color: inherit;
 }
 
-hr {
+#end-of-content {
     border: 1px solid #2aa198;
 }
 
@@ -90,4 +90,8 @@ hr {
 
 #social-links a:link {
     color: #b8e986;
+}
+
+#copyright {
+    text-transform: uppercase;
 }
