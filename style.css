@@ -83,6 +83,6 @@ hr {
     line-height: 1.3;
 }
 
-footer #social-links a:link {
+#social-links a:link {
     color: #b8e986;
 }
