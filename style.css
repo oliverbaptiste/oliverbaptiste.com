@@ -19,7 +19,7 @@ p {
     font-size: 1.2rem;
 }
 
-#banner dt {
+#banner .hed {
     color: #2aa198;
     font-size: 3.6rem;
     font-weight: 700;
@@ -28,14 +28,14 @@ p {
     text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-#banner dd {
+#banner .dek {
     color: #b8e986;
     font-size: 1.8rem;
     font-weight: 700;
     margin-left: 0;
 }
 
-#banner dd small {
+#banner .dek small {
     font-weight: 400;
 }
 
@@ -47,7 +47,7 @@ p {
     margin-bottom: 3.6rem;
 }
 
-#hello-world h1 {
+#hello-world h2 {
     color: #d33682;
     font-size: 2.4rem;
 }
