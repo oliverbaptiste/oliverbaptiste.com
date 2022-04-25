@@ -13,16 +13,6 @@ An analog digital audio visual individual.™
 *I am a designer & developer*
 of Web sites & apps.
 
-*I currently work at Medscape*
-— a division of WebMD —
-as a Digital Production Coordinator.
-
-*I also play bass guitar!*
-I have perfomed, composed,
-& produced music in many different genres.
-
-** More to come!
-
 *** TODO Resume & Portfolio
 
 I would like to create an interactive web app

@@ -1,13 +1,15 @@
 body {
     background: #002b36;
     color: #fff;
-    font: normal 400 100%/1.2 "omnes-pro", sans-serif;
-    margin: 0;
+    font: normal 400 100%/1.4 "omnes-pro", sans-serif;
+    margin: 0 auto;
     padding: 1em 8%;
+    max-width: 50ch;
 }
 
 a:link {
-    color: #94d2ff;
+    color: #b8e986;
+    font-weight: 700;
 }
 
 a:visited {
@@ -15,13 +17,12 @@ a:visited {
     text-shadow: 0 1em 1em rgba(0,0,0,0.75);
 }
 
-p {
-    font-size: 1.2rem;
+article {
+    margin-bottom: 4em;
 }
 
 #banner .hed {
     color: #2aa198;
-    font-size: 3.6rem;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0.25em;
@@ -30,7 +31,6 @@ p {
 
 #banner .dek {
     color: #b8e986;
-    font-size: 1.8rem;
     font-weight: 700;
 }
 
@@ -38,27 +38,8 @@ p {
     font-weight: 400;
 }
 
-#hello-world a:link {
-    font-weight: 700;
-}
-
-#content {
-    margin-bottom: 3.6rem;
-}
-
-#hello-world h2 {
-    color: #d33682;
-    font-size: 2.4rem;
-}
-
-#hello-world strong {
+#content strong {
     color: #94d2ff;
-    display: block;
-    font-size: 1.8rem;
-}
-
-#hello-world aside strong {
-    color: inherit;
 }
 
 #end-of-content {
@@ -67,24 +48,17 @@ p {
 
 #site-info {
     font-family: "franklin-gothic-urw-comp", sans-serif;
-    font-size: 0.8rem;
-    letter-spacing: .1em;
     text-align: right;
     margin-bottom: 3.6rem;
 }
 
-#site-info a:link {
-    text-transform: uppercase;
-}
-
 #social-links ul {
     list-style: none;
-    margin: 0;
 }
 
 #social-links li {
-    font-size: 1.6rem;
     line-height: 1.3;
+    text-transform: uppercase;
 }
 
 #social-links a:link {
