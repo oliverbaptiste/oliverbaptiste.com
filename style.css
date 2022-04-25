@@ -41,7 +41,11 @@ section {
     font-weight: 400;
 }
 
-#content strong{
+#content h2 {
+    color: #d33682;
+}
+
+#content strong {
     color: #94d2ff;
 }
 
