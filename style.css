@@ -12,8 +12,16 @@ a:link {
     font-weight: 700;
 }
 
+a:visited {
+    color: #b8e986;
+}
+
 article {
     margin-bottom: 4em;
+}
+
+section {
+    margin: 2em 0;
 }
 
 #banner .hed {
@@ -33,7 +41,7 @@ article {
     font-weight: 400;
 }
 
-#content strong {
+#content strong{
     color: #94d2ff;
 }
 
@@ -62,4 +70,5 @@ article {
 
 #copyright {
     text-transform: uppercase;
+    text-align: center;
 }
