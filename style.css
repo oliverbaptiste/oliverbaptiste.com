@@ -1,78 +1,78 @@
 body {
-    background: #002b36;
-    color: #fff;
-    font: normal 400 100%/1.4 "omnes-pro", sans-serif;
-    margin: 0 auto;
-    padding: 1em 8%;
-    max-width: 55ch;
+  background: #002b36;
+  color: #fff;
+  font: normal 400 100%/1.4 "omnes-pro", sans-serif;
+  margin: 0 auto;
+  padding: 1em 8%;
+  max-width: 55ch;
 }
 
 a:link {
-    color: #b8e986;
-    font-weight: 700;
+  color: #b8e986;
+  font-weight: 700;
 }
 
 a:visited {
-    color: #b8e986;
+  color: #b8e986;
 }
 
 article {
-    margin-bottom: 4em;
+  margin-bottom: 4em;
 }
 
 section {
-    margin: 2em 0;
+  margin: 2em 0;
 }
 
 #banner .hed {
-    color: #2aa198;
-    font-weight: 700;
-    line-height: 1;
-    margin-bottom: 0.25em;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  color: #2aa198;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.25em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #banner .dek {
-    color: #b8e986;
-    font-weight: 700;
+  color: #b8e986;
+  font-weight: 700;
 }
 
 #banner .dek small {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 #content h2 {
-    color: #d33682;
+  color: #d33682;
 }
 
 #content strong {
-    color: #94d2ff;
+  color: #94d2ff;
 }
 
 #end-of-content {
-    border: 1px solid #2aa198;
+  border: 1px solid #2aa198;
 }
 
 #site-info {
-    font-family: "franklin-gothic-urw-comp", sans-serif;
-    text-align: right;
-    margin-bottom: 3.6rem;
+  font-family: "franklin-gothic-urw-comp", sans-serif;
+  text-align: right;
+  margin-bottom: 3.6rem;
 }
 
 #social-links ul {
-    list-style: none;
+  list-style: none;
 }
 
 #social-links li {
-    line-height: 1.3;
-    text-transform: uppercase;
+  line-height: 1.3;
+  text-transform: uppercase;
 }
 
 #social-links a:link {
-    color: #b8e986;
+  color: #b8e986;
 }
 
 #copyright {
-    text-transform: uppercase;
-    text-align: center;
+  text-transform: uppercase;
+  text-align: center;
 }
