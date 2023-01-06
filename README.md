@@ -41,6 +41,8 @@ SSL/TLS by [Let’s Encrypt](https://letsencrypt.org/).
 
 ## Netizenships
 
+I’m also on these sites:
+
 - [Behance](https://www.behance.net/oliverbaptiste)
 - [Codepen](https://codepen.io/ogab)
 - [Github](https://github.com/oliverbaptiste)
