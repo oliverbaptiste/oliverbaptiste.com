@@ -34,13 +34,12 @@ body > main > article,
 body > footer {
   margin: 0 auto;
   max-width: 768px;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 a:link,
 a:visited {
-  color: var(--blue);
-  font-weight: 700;
+  color: var(--cyan);
 }
 
 #site-banner {
@@ -65,7 +64,8 @@ a:visited {
 }
 
 #content article {
-  padding-bottom: 3em;
+  line-height: 1.4;
+  padding-bottom: 4em;
 }
 
 #site-info {
