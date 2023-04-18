@@ -6,24 +6,27 @@
 
 This repo is for the personal homepage of **Oliver Baptiste**, a web designer & developer based in New York City.
 
-## [TODO] Resume & Portfolio
+## Goals
 
-I would like to create an interactive web app to showcase my design & development work.
+### [TODO] Portfolio web app
 
-## [TODO] Blog
+I would like to create an interactive web app for this site that showcases my design & development work.
 
-I would like to start blogging, focusing on these topics:
+## [TODO] Blogging
+
+I would like to blog about things that interest me, such as:
 
 - web development
   - HTML
   - CSS
-  - Ecmascript
-- music & audio production
-- graphic design
+  - JavaScript & TypeScript
+    - Runtimes like node & deno
 - electronics
   - mechanical keyboards
   - Raspberry Pi
   - retrocomputing
+- graphic art & design
+- music & audio production
 
 ## Colophon
 
