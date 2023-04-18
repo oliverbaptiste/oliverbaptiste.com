@@ -29,9 +29,9 @@ body {
   margin: 0;
 }
 
-body > header,
-body > main > article,
-body > footer {
+body>header,
+body>main>article,
+body>footer {
   margin: 0 auto;
   max-width: 768px;
   padding: 1.5rem;
