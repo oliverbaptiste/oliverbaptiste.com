@@ -73,16 +73,16 @@ a:visited {
   text-align: right;
 }
 
-#social-links ul {
+#netizenships ul {
   list-style: none;
 }
 
-#social-links li {
+#netizenships ul li {
   text-transform: uppercase;
 }
 
-#social-links a:link,
-#social-links a:visited {
+#netizenships ul li a:link,
+#netizenships ul li a:visited {
   color: var(--yellow-green);
 }
 
