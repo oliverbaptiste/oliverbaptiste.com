@@ -1,11 +1,13 @@
-# [oliverbaptiste.com](https://oliverbaptiste.com)
+# [oliverbaptiste.com](https://oliverbaptiste.com) source code
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/db422a79-6dad-44bd-bf15-fc6fcb6e3760/deploy-status)](https://app.netlify.com/sites/oliverbaptiste/deploys)
+
+## Hello, World! 👋 🌍
 
 This repo is for the personal homepage of **Oliver Baptiste**,
 a web designer & developer based in New York City.
 
-## Site under construction
+## TODO
 
 ### Blog
 
