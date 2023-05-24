@@ -37,11 +37,6 @@ body>footer {
   padding: 1.5rem;
 }
 
-a:link,
-a:visited {
-  color: var(--cyan);
-}
-
 #site-banner {
   font-family: "omnes-pro";
   font-weight: 700;
