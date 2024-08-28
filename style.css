@@ -39,7 +39,7 @@ body>footer {
 
 article footer hr {
   border: none;
-  border-top: 2px solid var(--cyan);
+  border-top: 2px solid var(--base00);
 }
 
 #site-banner {
@@ -72,18 +72,6 @@ article footer hr {
   padding-bottom: 4rem;
 }
 
-#content article header .dek {
-  font-size: 1.25rem;
-}
-
-#content article header .hero {
-  text-align: center;
-}
-
-#content article header .hero img {
-  max-width: 100%;
-}
-
 #content article header {
   margin-bottom: 1rem;
 }
@@ -91,6 +79,10 @@ article footer hr {
 #content article header h1 {
   border-bottom: 2px solid var(--base03);
   padding-bottom: 1rem;
+}
+
+#content article figure figcaption {
+  font-size: 0.8rem;
 }
 
 #content article footer {
