@@ -90,8 +90,6 @@ u {
 }
 
 #netizenships {
-  font-family: franklin-gothic-urw-comp, sans-serif;
-  font-weight: medium;
   text-transform: uppercase;
 }
 
@@ -100,7 +98,8 @@ u {
 }
 
 #netizenships ul li {
-  font-weight: medium;
+  font-family: franklin-gothic-urw-comp, sans-serif;
+  font-weight: heavy;
   line-height: 1.5;
   font-size: larger;
 }
@@ -110,6 +109,6 @@ u {
   color: var(--yellow-green);
 }
 
-#copyright {
-  text-align: center;
+#site-copyright small {
+  text-transform: uppercase;
 }
