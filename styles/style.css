@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   /* Solarized colors */
   --base03: #002b36;
@@ -26,8 +30,8 @@ body {
   background: var(--base03);
   color: var(--base3);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: inherit;
-  margin: 1em;
+  margin: 1rem 2rem;
+  line-height: 1.4;
 }
 
 hr {
@@ -38,15 +42,27 @@ u {
   text-transform: uppercase;
 }
 
+#site-banner,
+#content,
+#site-info {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 720px;
+}
+
 #site-banner {
   font-family: 'omnes-pro', sans-serif;
   font-weight: 700;
+  padding: 1rem 0;
 }
 
 #site-banner .hed {
   color: var(--cyan);
+  display: block;
   font-size: xx-large;
-  margin: 0;
+  line-height: 80%;
+  margin: 0 0 0.5rem;
+  padding: 0;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -61,15 +77,17 @@ u {
 
 #site-banner .dek {
   color: var(--yellow-green);
-  font-size: medium;
-  margin-top: 0;
+  display: block;
+  font-size: large;
+  line-height: 1;
+  margin: 0;
 }
 
 #content {
   background-color: var(--base3);
   border-radius: 0.5rem;
   color: var(--base03);
-  padding: 1rem 1rem 2rem;
+  padding: 1rem 1.5rem 3rem;
 }
 
 #content article header h1 {
