@@ -24,72 +24,68 @@
 
 body {
   background: var(--base03);
-  color: var(--base1);
-  font-family: 'Atkinson Hyperlegible';
-  margin: 0;
+  color: var(--base3);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: inherit;
+  margin: 1em;
 }
 
-body>header,
-body>main>article,
-body>footer {
-  margin: 0 auto;
-  max-width: 768px;
-  padding: 1.5rem;
+hr {
+  display: none;
 }
 
-article footer hr {
-  border: none;
-  border-top: 2px solid var(--base00);
+u {
+  text-transform: uppercase;
 }
 
 #site-banner {
-  font-family: "omnes-pro";
+  font-family: 'omnes-pro';
   font-weight: 700;
 }
 
 #site-banner .hed {
   color: var(--cyan);
+  font-size: xx-large;
   margin: 0;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #site-banner .hed a {
   color: inherit;
+  text-decoration: none;
+}
+
+#site-banner .hed a:hover {
+  text-decoration: underline;
 }
 
 #site-banner .dek {
-  margin: 0;
   color: var(--yellow-green);
+  font-size: medium;
+  margin-top: 0;
 }
 
 #content {
   background-color: var(--base3);
   color: var(--base03);
-}
-
-#content article {
-  line-height: 1.4;
-  padding-bottom: 4rem;
-}
-
-#content article header {
-  margin-bottom: 1rem;
+  padding: 1rem 1rem 2rem;
 }
 
 #content article header h1 {
+  padding-bottom: 4px;
   border-bottom: 2px solid var(--base03);
-  padding-bottom: 1rem;
 }
 
-#content article figure figcaption {
-  font-size: 0.8rem;
+#reflist li {
+  font-size: small;
 }
 
-#content article footer {
-  padding-top: 1rem;
+#back2top {
+  text-align: right;
 }
 
 #site-info {
+  font-family: 'omnes-pro';
   text-align: right;
 }
 
@@ -98,7 +94,10 @@ article footer hr {
 }
 
 #netizenships ul li {
+  font-family: franklin-gothic-urw-comp, sans-serif;
   text-transform: uppercase;
+  line-height: 1.5;
+  font-size: larger;
 }
 
 #netizenships ul li a:link,
@@ -107,6 +106,7 @@ article footer hr {
 }
 
 #copyright {
-  text-transform: uppercase;
   text-align: center;
 }
+
+

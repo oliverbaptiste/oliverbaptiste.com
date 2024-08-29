@@ -8,34 +8,32 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.typekit.net/cyf8srx.css">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:normal,italic,bold,bolditalic">
   <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body id="page2">
 
 <!-- SITE HEADER -->
 <header id="site-banner">
-<p>
-  <span class="hed"><a href="./">Oliver Baptiste</a>:</span><br>
-  <span class="dek">an analog&nbsp;digital audio&nbsp;visual individual.</span>
-</p>
+  <p>
+    <span class="hed"><a href="./">Oliver Baptiste</a></span><br>
+    <span class="dek">An analog&nbsp;digital audio&nbsp;visual individual.</span>
+  </p>
 </header>
 
 <!-- MAIN CONTENT -->
 <main id="content">
-<article>
+<article id="top">
 
 <!-- ARTICLE header -->
 <header>
-  <h1 class="hed">This is a top-level heading in a <code>header</code> block</h1>
+  <h1 class="hed">This is a top-level heading</h1>
   <p class="dateline">2024-08-28</p>
   <p class="dek">An subtitle or introduction can go here…</p>
 </header>
 
 <!-- ARTICLE body -->
-<blockquote>
+<blockquote class="Poetry">
   ’Twas mercy brought me from my <em>Pagan</em> land,<br>
   Taught my benighted soul to understand<br>
   That there’s a God, that there’s a <em>Saviour</em> too:<br>
@@ -45,13 +43,20 @@
   Remember, <em>Christians</em>, <em>Negroes</em>, black as <em>Cain</em>,<br>
   May be refin’d, and join th’ angelic train.<br>
   <br>
-  —Phillis Wheatley, <cite>On being brought from Africa to America</cite>.
+  —Phillis Wheatley, <cite>On Being Brought from Africa to America</cite>.
 </blockquote>
 <hr>
-<h1>This is a top-level heading</h1>
-<p><mark>Sphinx of black quartz, judge my vow!</mark></p>
-<p>The quick brown fox jumps over the lazy dog.</p>
-<p>The previous paragraphs are panagrams that use every letter in the English alphabet, space characters, and three (3) punctuation marks: <b>comma</b>, <b>period</b>, and <b>exclamation point</b>.</p>
+<h1>This is a top-level heading, too</h1>
+<p>To start web server, enter this into your console:</p>
+<pre><code>python3 -m http.server</code></pre>
+This will serve your site locally at <a href="http://localhost:8000/">http://localhost:8000/</a>
+<ol>
+  <li>Sphinx of black quartz, judge my <mark>vow</mark>!</li>
+  <li>The quick brown fox jumps over the lazy dog.</li>
+</ol>
+<p></p>
+<p></p>
+<p>Those panagrams utilize every letter in the English alphabet, spaces, and three (3) punctuation marks: <b>comma</b>, <b>period</b>, and <b>exclamation point</b>.</p>
 <p>It also requires the <kbd>Shift</kbd> key to make the first letter of the sentence uppercase.</p>
 <h2>This is a second-level heading</h2>
 <p>Although the exact date and place of her birth are not documented, scholars believe <strong>Phillis Wheatley</strong> was born in 1753 in West Africa, likely in present-day Gambia or Senegal.</p>
@@ -64,30 +69,31 @@
 <footer>
   <hr>
   <h2>References</h2>
-  <ul>
+  <ul id="reflist">
+    <li><q>On Being Brought from Africa to America.</q> <cite>The Poetry Foundation</cite>, 22 June 2024, <a href="https://www.poetryfoundation.org/poems/45465/on-being-brought-from-africa-to-america">www.poetryfoundation.org/poems/45465/on-being-brought-from-africa-to-america</a>. Accessed 28 Aug 2024.</li>
     <li><q>Phillis Wheatley.</q> <cite>Wikipedia</cite>, Wikimedia Foundation, 20 Aug. 2024, <a href="https://en.wikipedia.org/wiki/Phillis_Wheatley">en.wikipedia.org/wiki/Phillis_Wheatley</a>. Accessed 28 Aug. 2024.</li>
   </ul>
-  <p><small>© 2024 Oliver <abbr title="Gordon Alphaeus">G.&thinsp;A.</abbr> Baptiste. No rights reserved.</small></p>
+  <p><small>Use this page to put your classless stylesheets through the paces.</small></p>
+  <p id="back2top"><small>🔝 <a href="#top">Back to top</a></small></p>
 </footer>
 </article>
 </main>
 
 <!-- SITE FOOTER -->
 <footer id="site-info">
+<hr>
 <div id="netizenships">
-<p>I’m also on these sites:</p>
-<ul>
-<li><a href="https://www.behance.net/oliverbaptiste">Behance</a></li>
-<li><a href="https://codepen.io/ogab">Codepen</a></li>
-<li><a href="https://github.com/oliverbaptiste">Github</a></li>
-<li><a href="https://www.linkedin.com/in/oliverbaptiste/">LinkedIn</a></li>
-<li><a href="https://soundcloud.com/oliverbaptiste">SoundCloud</a></li>
-<li><a href="https://vimeo.com/oliverbaptiste">Vimeo</a></li>
-</ul>
+  <p>I’m also on these sites:</p>
+  <ul>
+    <li><a href="https://www.behance.net/oliverbaptiste">Behance</a></li>
+    <li><a href="https://codepen.io/ogab">Codepen</a></li>
+    <li><a href="https://github.com/oliverbaptiste">Github</a></li>
+    <li><a href="https://www.linkedin.com/in/oliverbaptiste/">LinkedIn</a></li>
+    <li><a href="https://soundcloud.com/oliverbaptiste">SoundCloud</a></li>
+    <li><a href="https://vimeo.com/oliverbaptiste">Vimeo</a></li>
+  </ul>
 </div>
-<div id="copyright">
-<p><small>© 2018–2024 Oliver G.&thinsp;A. Baptiste</small></p>
-</div>
+<p id="copyright"><strong>oliverbaptiste.com</strong><br><small>© 2008–2024 Oliver <abbr title="Gordon Alphaeus">G.&thinsp;A.</abbr> <u>Baptiste</u></small></p>
 </footer>
 
 </body>
