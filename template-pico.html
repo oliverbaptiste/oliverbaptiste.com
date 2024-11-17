@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head><meta charset="utf-8">
-<title>TITLE GOES HERE • SITE NAME</title>
+<title>PAGE TITLE GOES HERE • SITE NAME GOES HERE</title>
 <link rel="icon" href="data:,">
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style> /* CSS */
+<style>
 @media print {
   #goto-top,
   #site-nav menu { display: none; }
@@ -20,11 +20,17 @@
   href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
 </head>
 <body id="top">
-<header class="container">
+<header id="site-header" class="container">
   <nav id="site-nav">
     <ul>
-      <li><strong>SITE HED</strong><br>SITE DEK
-      <li id="goto-main-content"><a href="#main-content">Skip to main content 👇</a></li>
+      <li>
+        <strong>SITE HED GOES HERE</strong><br>
+        SITE DEK GOES HERE
+        <ul>
+          <li id="goto-main-content">
+            <a href="#main-content">Skip to main content</a>
+        </ul>
+      </li>
     </ul>
     <menu>
       <li><a href="#">menu item 1</a>
@@ -50,10 +56,10 @@
   </section>
 </main>
 <hr>
-<footer class="container">
-  <p id="goto-top"><a href="#top">👆 Back to top</a>
+<footer id="site-footer" class="container">
+  <p id="goto-top"><a href="#top">Back to top</a>
   <p id="copyright"><small>© 2024 <u>COPYRIGHT AUTHOR</u>. All rights reserved.</small>
 </footer>
-<script>/* JavaScript */
+<script>
 console.log(`👋 HELLO WORLD 🌎`);
 </script></body></html>
