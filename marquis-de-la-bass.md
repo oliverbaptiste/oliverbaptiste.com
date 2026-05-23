@@ -10,7 +10,7 @@
 
 His Majesty  
 Lord **Oliver** the Second  
-of the House of **Baptiste**
+of the House of **Baptiste**  
 of the Spice Isles:  
 Marquis of the **Bass**,  
 Baron of the Dub,  
@@ -28,4 +28,4 @@ des Îles-aux-Épices :
 Baron du Dub,  
 Chevalier du très vengeur ordre  
 de Haut-Jean le Conquéreur,  
-& Défenseur des Terres-Fières.
+et Défenseur des Terres-Fières.
