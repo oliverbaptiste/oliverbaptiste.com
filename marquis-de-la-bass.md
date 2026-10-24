@@ -1,21 +1,29 @@
-# OLIVIER Ⅱ<br>Marquis de la Basse<br>REGGAY LORDS
+# **OLIVIER Ⅱ**<br>Marquis de la Basse
 
-⚜️
+Une proclamation des ℜ𝔢𝔤𝔤𝔞𝔶 𝔏𝔬𝔯𝔡𝔰
 
+Oyez ! Oyez !  
 Sa Très Excellente Majesté  
 le Seigneur  
 **Olivier Ⅱ**  
-de la maison Baptiste,  
-**Marquis de la Basse**,  
+de la maison Baptiste  
+— **Marquis de la Basse** —  
 Baron du Dub,  
 Chevalier-commandeur  
-du Très Vengeur Ordre  
+de l'Ordre Très Vengeur  
 de Haut-Jean-le-Conquérant.
+
+⚜️
 
 -----
 
+## **Oliver Baptiste**<br>Bass guitar
+
+A proclamation of the ℜ𝔢𝔤𝔤𝔞𝔶 𝔏𝔬𝔯𝔡𝔰
+
+Hear ye, hear ye!  
 His Most Excellent Majesty  
-the Lord **Oliver**  
+Lord **Oliver**  
 of House **Baptiste**,  
 Second of His Name,  
 Marquis of the **Bass**,  
@@ -27,7 +35,7 @@ the Most Vengeful Order of
 👑
 <!-- css -->
 <style>
-  h1, h2 { border-bottom: 0; }
+  h1 strong, h2 strong { color: goldenrod; }
   body { text-align: center; }
   p  { font-family: cursive; line-height: 2; }
   strong { font-family: sans-serif; text-transform: uppercase; }
